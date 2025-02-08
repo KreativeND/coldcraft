@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "job-search",
+      "title": "Job Search",
+      "templates": [
+        {
+          "id": "initial-outreach",
+          "title": "Initial Job Outreach",
+          "subject": "Experienced [Role] Looking to Join [Company]",
+          "body": "Dear [Name],\n\nI hope this email finds you well. I came across the [Role] position at [Company] and was immediately drawn to the opportunity.\n\nWith [X] years of experience in [Industry/Skills], I've [brief achievement]. I'm particularly impressed by [Company]'s [specific detail about company].\n\nWould you be open to a brief conversation about how my background aligns with your team's needs?\n\nBest regards,\n[Your name]"
+        },
+        {
+          "id": "referral-request",
+          "title": "Referral Request",
+          "subject": "Seeking Your Insight: [Role] Position at [Company]",
+          "body": "Hi [Name],\n\nI noticed you work at [Company] and I'm very interested in the [Role] position currently available.\n\nI've been [brief background] and I believe my experience in [skills/achievements] would be valuable to the team.\n\nWould you be willing to refer me or share any insights about the role and team?\n\nThank you for your time,\n[Your name]"
+        }
+      ]
+    },
+    {
+      "id": "product",
+      "title": "Product Promotion",
+      "templates": [
+        {
+          "id": "product-launch",
+          "title": "Product Launch",
+          "subject": "Introducing [Product]: [Key Benefit]",
+          "body": "Hi [Name],\n\nI noticed you're [observation about prospect's work/company] and thought you might be interested in [Product], which helps [target audience] to [key benefit].\n\nWe've helped companies like [social proof] achieve [specific result].\n\nWould you be interested in a quick demo?\n\nBest,\n[Your name]"
+        }
+      ]
+    },
+    {
+      "id": "follow-up",
+      "title": "Follow-ups",
+      "templates": [
+        {
+          "id": "meeting-follow-up",
+          "title": "Post-Meeting Follow-up",
+          "subject": "Great Speaking With You - Next Steps",
+          "body": "Hi [Name],\n\nThank you for taking the time to meet with me today. I particularly enjoyed discussing [specific topic].\n\nAs discussed, here are the next steps:\n1. [Action item 1]\n2. [Action item 2]\n\nLooking forward to our next conversation.\n\nBest regards,\n[Your name]"
+        }
+      ]
+    }
+  ]
+}
