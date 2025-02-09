@@ -1,46 +1,742 @@
 {
   "categories": [
-    {
-      "id": "job-search",
-      "title": "Job Search",
-      "templates": [
-        {
-          "id": "initial-outreach",
-          "title": "Initial Job Outreach",
-          "subject": "Experienced [Role] Looking to Join [Company]",
-          "body": "Dear [Name],\n\nI hope this email finds you well. I came across the [Role] position at [Company] and was immediately drawn to the opportunity.\n\nWith [X] years of experience in [Industry/Skills], I've [brief achievement]. I'm particularly impressed by [Company]'s [specific detail about company].\n\nWould you be open to a brief conversation about how my background aligns with your team's needs?\n\nBest regards,\n[Your name]"
-        },
-        {
-          "id": "referral-request",
-          "title": "Referral Request",
-          "subject": "Seeking Your Insight: [Role] Position at [Company]",
-          "body": "Hi [Name],\n\nI noticed you work at [Company] and I'm very interested in the [Role] position currently available.\n\nI've been [brief background] and I believe my experience in [skills/achievements] would be valuable to the team.\n\nWould you be willing to refer me or share any insights about the role and team?\n\nThank you for your time,\n[Your name]"
-        }
-      ]
-    },
-    {
-      "id": "product",
-      "title": "Product Promotion",
-      "templates": [
-        {
-          "id": "product-launch",
-          "title": "Product Launch",
-          "subject": "Introducing [Product]: [Key Benefit]",
-          "body": "Hi [Name],\n\nI noticed you're [observation about prospect's work/company] and thought you might be interested in [Product], which helps [target audience] to [key benefit].\n\nWe've helped companies like [social proof] achieve [specific result].\n\nWould you be interested in a quick demo?\n\nBest,\n[Your name]"
-        }
-      ]
-    },
-    {
-      "id": "follow-up",
-      "title": "Follow-ups",
-      "templates": [
-        {
-          "id": "meeting-follow-up",
-          "title": "Post-Meeting Follow-up",
-          "subject": "Great Speaking With You - Next Steps",
-          "body": "Hi [Name],\n\nThank you for taking the time to meet with me today. I particularly enjoyed discussing [specific topic].\n\nAs discussed, here are the next steps:\n1. [Action item 1]\n2. [Action item 2]\n\nLooking forward to our next conversation.\n\nBest regards,\n[Your name]"
-        }
-      ]
-    }
+      {
+          "id": "job-search-referrals-networking",
+          "title": "Job Search - Referrals & Networking",
+          "templates": [
+              {
+                  "id": "frontend-referral-1",
+                  "title": "Referral Request for Frontend Developer Position at [Company]",
+                  "subject": "Referral Request: Frontend Developer Role at [Company]",
+                  "body": "Hi [Name],\n\nI hope you’re doing well! I’m reaching out to see if you could refer me for the Frontend Developer role at [Company]. I have [X] years of experience in React, Vue.js, and building responsive web apps.\n\nYour support would mean a lot!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-referral-2",
+                  "title": "Quick Favor: Frontend Developer Referral",
+                  "subject": "Quick Favor: Frontend Developer Referral Needed",
+                  "body": "Hi [Name],\n\nI hope you’re having a great day! I’m interested in the Frontend Developer role at [Company]. With my background in JavaScript and UI/UX design, I’d be a great fit. Could you refer me?\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-referral-3",
+                  "title": "Help Needed: Frontend Developer Referral Request",
+                  "subject": "Help Needed: Frontend Developer Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Frontend Developer position at [Company]. My skills include:\n\n- HTML5/CSS3\n- React.js & Redux\n- Performance optimization\n\nI’d appreciate your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-networking-1",
+                  "title": "Networking Request: Frontend Development Trends",
+                  "subject": "Connecting on Frontend Development Best Practices",
+                  "body": "Hi [Name],\n\nI’m a Frontend Developer with [X] years of experience, and I admire your work at [Company]. Would you be open to a quick chat about trends in frontend architecture?\n\nLooking forward to connecting!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-networking-2",
+                  "title": "Networking Outreach: Frontend Performance Optimization",
+                  "subject": "Discussing Frontend Performance Strategies",
+                  "body": "Hi [Name],\n\nI noticed your expertise in frontend performance optimization at [Company]. I’d love to connect and learn how you approach challenges like lazy loading and code splitting.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-referral-4",
+                  "title": "Referral Request for React Developer Role",
+                  "subject": "React Developer Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the React Developer role at [Company]. With [X] years of experience in React and TypeScript, I’d greatly appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-referral-5",
+                  "title": "Referral Request: Frontend Lead Position",
+                  "subject": "Frontend Team Lead Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Frontend Team Lead position at [Company]. I’ve led teams to build scalable applications using Angular and Node.js. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-networking-3",
+                  "title": "Networking Request: Accessibility in Frontend Development",
+                  "subject": "Connecting on Web Accessibility Best Practices",
+                  "body": "Hi [Name],\n\nI’m passionate about accessibility in frontend development and noticed your work at [Company]. Would you be open to sharing insights on implementing ARIA labels?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-networking-4",
+                  "title": "Networking Outreach: Cross-Browser Compatibility",
+                  "subject": "Discussing Cross-Browser Testing Strategies",
+                  "body": "Hi [Name],\n\nI’d love to connect and learn how your team at [Company] handles cross-browser compatibility challenges. Are you open to a quick chat?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "frontend-networking-5",
+                  "title": "Networking Request: Frontend Tooling Discussion",
+                  "subject": "Exploring Modern Frontend Build Tools",
+                  "body": "Hi [Name],\n\nI’m curious about the frontend tooling stack at [Company]. Would you be open to discussing tools like Webpack or Vite?\n\nLooking forward to connecting!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-referral-1",
+                  "title": "Referral Request for Backend Developer Role at [Company]",
+                  "subject": "Referral Request: Backend Developer Position",
+                  "body": "Hi [Name],\n\nI hope you’re well! I’m interested in the Backend Developer role at [Company]. I specialize in Node.js, Python, and scalable API design. Could you refer me?\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-referral-2",
+                  "title": "Quick Favor: Backend Developer Referral",
+                  "subject": "Backend Developer Referral Needed",
+                  "body": "Hi [Name],\n\nI’m applying for the Backend Developer role at [Company]. With [X] years of experience in RESTful APIs and microservices, I’d appreciate your referral.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-referral-3",
+                  "title": "Help Needed: Backend Developer Referral Request",
+                  "subject": "Referral for Backend Role at [Company]",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Backend Developer position at [Company]. My skills include:\n\n- Database design (PostgreSQL/MongoDB)\n- Cloud deployment (AWS/Azure)\n- API security\n\nThank you for your support!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-networking-1",
+                  "title": "Networking Outreach: Backend Architecture Insights",
+                  "subject": "Discussing Backend System Design",
+                  "body": "Hi [Name],\n\nI’m a Backend Developer with expertise in microservices and cloud infrastructure. I’d love to connect and learn from your experiences at [Company]. Are you open to a quick chat?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-networking-2",
+                  "title": "Networking Request: Database Optimization Strategies",
+                  "subject": "Connecting on Database Performance Tuning",
+                  "body": "Hi [Name],\n\nI noticed your work on database optimization at [Company]. Could we discuss strategies for query optimization and indexing?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-referral-4",
+                  "title": "Referral Request: Java Backend Developer Role",
+                  "subject": "Java Backend Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the Java Backend Developer role at [Company]. With [X] years of experience in Spring Boot and Hibernate, I’d appreciate your referral.\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "backend-referral-5",
+                  "title": "Referral Request: Backend Team Lead Position",
+                  "subject": "Backend Team Lead Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Backend Team Lead position at [Company]. I’ve led teams to build scalable backend systems using Go and Kubernetes. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-networking-3",
+                  "title": "Networking Request: API Security Best Practices",
+                  "subject": "Discussing API Authentication Strategies",
+                  "body": "Hi [Name],\n\nI’d love to learn how your team at [Company] handles API security. Are you open to sharing insights on OAuth or JWT implementation?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-networking-4",
+                  "title": "Networking Outreach: Event-Driven Architecture",
+                  "subject": "Exploring Event-Driven Systems",
+                  "body": "Hi [Name],\n\nI’m researching event-driven architectures and noticed your work at [Company]. Would you be open to a discussion?\n\nLooking forward to connecting!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "backend-networking-5",
+                  "title": "Networking Request: Serverless Backend Design",
+                  "subject": "Discussing Serverless Architecture",
+                  "body": "Hi [Name],\n\nI’m exploring serverless backend solutions and would love to hear about your experiences at [Company]. Are you available for a quick chat?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-referral-1",
+                  "title": "Referral Request for Mobile Developer Position at [Company]",
+                  "subject": "Mobile Developer Role Referral Request",
+                  "body": "Hi [Name],\n\nI’m applying for the Mobile Developer role at [Company]. With [X] years of experience in Swift and Kotlin, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-referral-2",
+                  "title": "Quick Favor: React Native Developer Referral",
+                  "subject": "React Native Developer Referral Needed",
+                  "body": "Hi [Name],\n\nI’m interested in the React Native Developer role at [Company]. With my background in cross-platform app development, I’d be a great fit. Could you refer me?\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-referral-3",
+                  "title": "Help Needed: iOS Developer Referral Request",
+                  "subject": "iOS Developer Position Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the iOS Developer position at [Company]. My skills include:\n\n- Swift & SwiftUI\n- Core Data\n- App Store deployment\n\nI’d appreciate your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-networking-1",
+                  "title": "Networking Outreach: Mobile App Performance",
+                  "subject": "Discussing Mobile App Optimization",
+                  "body": "Hi [Name],\n\nI’m a Mobile Developer focused on performance optimization. I’d love to connect and learn how your team at [Company] tackles challenges like memory management.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-networking-2",
+                  "title": "Networking Request: Cross-Platform Development Trends",
+                  "subject": "Exploring Flutter and React Native",
+                  "body": "Hi [Name],\n\nI noticed your expertise in cross-platform development at [Company]. Could we discuss trends in Flutter vs. React Native?\n\nLooking forward to your insights!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-referral-4",
+                  "title": "Referral Request: Android Developer Role",
+                  "subject": "Android Developer Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the Android Developer role at [Company]. With [X] years of experience in Kotlin and Jetpack Compose, I’d greatly appreciate your referral.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-referral-5",
+                  "title": "Referral Request: Mobile Team Lead Position",
+                  "subject": "Mobile Team Lead Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Mobile Team Lead position at [Company]. I’ve led teams to build apps with over 1M downloads. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-networking-3",
+                  "title": "Networking Request: Mobile CI/CD Pipelines",
+                  "subject": "Discussing Mobile Deployment Automation",
+                  "body": "Hi [Name],\n\nI’d love to learn how your team at [Company] automates mobile app deployments. Are you open to sharing your CI/CD setup?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-networking-4",
+                  "title": "Networking Outreach: Mobile Security Best Practices",
+                  "subject": "Securing Mobile Apps Against Threats",
+                  "body": "Hi [Name],\n\nI’m researching mobile app security and would appreciate your insights on encryption and secure data storage. Could we connect?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "mobile-networking-5",
+                  "title": "Networking Request: AR/VR in Mobile Apps",
+                  "subject": "Exploring Augmented Reality in Mobile Development",
+                  "body": "Hi [Name],\n\nI’m exploring AR/VR integration in mobile apps and noticed your work at [Company]. Would you be open to a discussion?\n\nLooking forward to connecting!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-referral-1",
+                  "title": "Referral Request for UI/UX Designer Role at [Company]",
+                  "subject": "UI/UX Designer Position Referral",
+                  "body": "Hi [Name],\n\nI’m passionate about the UI/UX Designer role at [Company]. My portfolio includes user research, wireframing, and prototyping. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-referral-2",
+                  "title": "Quick Favor: UX Researcher Referral",
+                  "subject": "UX Researcher Role Referral Needed",
+                  "body": "Hi [Name],\n\nI’m applying for the UX Researcher position at [Company]. With [X] years of experience in user testing and personas, I’d appreciate your referral.\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-referral-3",
+                  "title": "Help Needed: Product Designer Referral Request",
+                  "subject": "Product Designer Position Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Product Designer role at [Company]. My skills include:\n\n- Figma & Sketch\n- User journey mapping\n- Prototyping\n\nI’d be grateful for your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-networking-1",
+                  "title": "Networking Outreach: UX Writing Best Practices",
+                  "subject": "Discussing Microcopy and UX Writing",
+                  "body": "Hi [Name],\n\nI’m a UX Designer interested in improving my microcopy skills. Could we discuss how your team at [Company] approaches UX writing?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-networking-2",
+                  "title": "Networking Request: Accessibility in UI Design",
+                  "subject": "Connecting on Inclusive Design Practices",
+                  "body": "Hi [Name],\n\nI noticed your focus on accessibility in UI design at [Company]. I’d love to connect and learn more about your approach to inclusive design practices.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-referral-4",
+                  "title": "Referral Request: UI Designer Role",
+                  "subject": "UI Designer Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the UI Designer role at [Company]. With [X] years of experience in visual design and branding, I’d greatly appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-referral-5",
+                  "title": "Referral Request: Senior UX Designer Position",
+                  "subject": "Senior UX Designer Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Senior UX Designer position at [Company]. I’ve led design projects that improved user engagement significantly. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-networking-3",
+                  "title": "Networking Request: Design Systems Discussion",
+                  "subject": "Exploring Design Systems in UI/UX",
+                  "body": "Hi [Name],\n\nI’m curious about how your team at [Company] implements design systems. Would you be open to discussing your experiences?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-networking-4",
+                  "title": "Networking Outreach: User-Centered Design",
+                  "subject": "Connecting on User-Centered Design Approaches",
+                  "body": "Hi [Name],\n\nI’m passionate about user-centered design and would love to hear how your team at [Company] incorporates user feedback into the design process.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "uiux-networking-5",
+                  "title": "Networking Request: Prototyping Tools",
+                  "subject": "Discussing Prototyping Tools and Techniques",
+                  "body": "Hi [Name],\n\nI’m exploring different prototyping tools and noticed your expertise at [Company]. Could we connect to discuss your favorite tools and techniques?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-referral-1",
+                  "title": "Referral Request for Data Scientist Role at [Company]",
+                  "subject": "Data Scientist Position Referral",
+                  "body": "Hi [Name],\n\nI’m applying for the Data Scientist role at [Company]. With [X] years of experience in machine learning and data analysis, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-referral-2",
+                  "title": "Quick Favor: Data Analyst Referral",
+                  "subject": "Data Analyst Role Referral Needed",
+                  "body": "Hi [Name],\n\nI’m interested in the Data Analyst position at [Company]. My background includes SQL, Python, and data visualization. Could you refer me?\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-referral-3",
+                  "title": "Help Needed: Machine Learning Engineer Referral Request",
+                  "subject": "Machine Learning Engineer Position Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Machine Learning Engineer role at [Company]. My skills include:\n\n- TensorFlow & PyTorch\n- Predictive modeling\n- Data preprocessing\n\nI’d appreciate your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-networking-1",
+                  "title": "Networking Outreach: Data Science Trends",
+                  "subject": "Discussing Current Trends in Data Science",
+                  "body": "Hi [Name],\n\nI’m a Data Scientist interested in the latest trends in the field. I’d love to connect and hear your insights on emerging technologies at [Company].\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-networking-2",
+                  "title": "Networking Request: Data Visualization Techniques",
+                  "subject": "Connecting on Data Visualization Best Practices",
+                  "body": "Hi [Name],\n\nI noticed your expertise in data visualization at [Company]. Could we discuss your favorite tools and techniques for effective storytelling with data?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-referral-4",
+                  "title": "Referral Request: Data Engineer Role",
+                  "subject": "Data Engineer Position at [Company]",
+                  "body": "Hi [Name ],\n\nI’m applying for the Data Engineer role at [Company]. With [X] years of experience in ETL processes and big data technologies, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-referral-5",
+                  "title": "Referral Request: Senior Data Scientist Position",
+                  "subject": "Senior Data Scientist Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Senior Data Scientist position at [Company]. I’ve led projects that utilized advanced analytics to drive business decisions. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-networking-3",
+                  "title": "Networking Request: Machine Learning Models",
+                  "subject": "Discussing Machine Learning Model Development",
+                  "body": "Hi [Name],\n\nI’d love to learn how your team at [Company] approaches machine learning model development. Are you open to sharing your experiences?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-networking-4",
+                  "title": "Networking Outreach: Data Ethics Discussion",
+                  "subject": "Connecting on Data Ethics in AI",
+                  "body": "Hi [Name],\n\nI’m passionate about data ethics and would love to hear your thoughts on responsible AI practices at [Company]. Could we connect?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "datascience-networking-5",
+                  "title": "Networking Request: Data Science Tools",
+                  "subject": "Exploring Data Science Tools and Frameworks",
+                  "body": "Hi [Name],\n\nI’m exploring various data science tools and noticed your expertise at [Company]. Could we discuss your favorite frameworks and libraries?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "devops-referral-1",
+                  "title": "Referral Request for DevOps Engineer Role at [Company]",
+                  "subject": "DevOps Engineer Position Referral",
+                  "body": "Hi [Name],\n\nI’m applying for the DevOps Engineer role at [Company]. With [X] years of experience in CI/CD and cloud infrastructure, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "devops-referral-2",
+                  "title": "Quick Favor: Site Reliability Engineer Referral",
+                  "subject": "Site Reliability Engineer Role Referral Needed",
+                  "body": "Hi [Name],\n\nI’m interested in the Site Reliability Engineer position at [Company]. My background includes Kubernetes, Docker, and monitoring solutions. Could you refer me?\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "devops-referral-3",
+                  "title": "Help Needed: Cloud Engineer Referral Request",
+                  "subject": "Cloud Engineer Position Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Cloud Engineer role at [Company]. My skills include:\n\n- AWS & Azure\n- Infrastructure as Code\n- Automation\n\nI’d appreciate your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "devops-networking-1",
+                  "title": "Networking Outreach: DevOps Best Practices",
+                  "subject": "Discussing DevOps Practices and Tools",
+                  "body": "Hi [Name],\n\nI’m a DevOps Engineer interested in best practices. I’d love to connect and hear your insights on tools and methodologies at [Company].\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "devops-networking-2",
+                  "title": "Networking Request: CI/CD Pipeline Strategies",
+                  "subject": "Connecting on CI/CD Pipeline Optimization",
+                  "body": "Hi [Name],\n\nI noticed your expertise in CI/CD at [Company]. Could we discuss strategies for optimizing deployment pipelines?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "devops-referral-4",
+                  "title": "Referral Request: Infrastructure Engineer Role",
+                  "subject": "Infrastructure Engineer Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the Infrastructure Engineer role at [Company]. With [X] years of experience in network architecture and security, I’d appreciate your referral.\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "devops-referral-5",
+                  "title": "Referral Request: Senior DevOps Engineer Position",
+                  "subject": "Senior DevOps Engineer Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Senior DevOps Engineer position at [Company]. I’ve led teams in implementing scalable cloud solutions and automation. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "devops-networking-3",
+                  "title": "Networking Request: Monitoring and Logging Tools",
+                  "subject": "Discussing Monitoring Solutions in DevOps",
+                  "body": "Hi [Name],\n\nI’d love to learn how your team at [Company] utilizes monitoring and logging tools. Are you open to sharing your experiences?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "devops-networking-4",
+                  "title": "Networking Outreach: Containerization Strategies",
+                  "subject": "Exploring Containerization in DevOps",
+                  "body": "Hi [Name],\n\nI’m researching containerization strategies and noticed your expertise at [Company]. Would you be open to discussing your approach?\n\nLooking forward to connecting!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "devops-networking-5",
+                  "title": "Networking Request: Cloud Security Practices",
+                  "subject": "Connecting on Cloud Security Strategies",
+                  "body": "Hi [Name],\n\nI’m interested in cloud security practices and would love to hear how your team at [Company] addresses security challenges. Could we connect?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-referral-1",
+                  "title": "Referral Request for Product Manager Role at [Company]",
+                  "subject": "Product Manager Position Referral",
+                  "body": "Hi [Name],\n\nI’m applying for the Product Manager role at [Company]. With [X] years of experience in product strategy and development, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-referral-2",
+                  "title": "Quick Favor: Associate Product Manager Referral",
+                  "subject": "Associate Product Manager Role Referral Needed",
+                  "body": "Hi [Name],\n\nI’m interested in the Associate Product Manager position at [Company]. My background includes market research and user feedback analysis. Could you refer me?\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "product-referral-3",
+                  "title": "Help Needed: Senior Product Manager Referral Request",
+                  "subject": "Senior Product Manager Position Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Senior Product Manager role at [Company]. My skills include:\n\n- Agile methodologies\n- Cross-functional team leadership\n- Product lifecycle management\n\nI’d appreciate your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-networking-1",
+                  "title": "Networking Outreach: Product Development Trends",
+                  "subject": "Discussing Trends in Product Development",
+                  "body": "Hi [Name],\n\nI’m a Product Manager interested in the latest trends in product development. I’d love to connect and hear your insights on best practices at [Company].\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-networking-2",
+                  "title": "Networking Request: User-Centric Product Design",
+                  "subject": "Connecting on User-Centric Design Approaches",
+                  "body": "Hi [Name],\n\nI noticed your focus on user-centric design at [Company]. I’d love to connect and learn more about your approach to product development.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-referral-4",
+                  "title": "Referral Request: Product Marketing Manager Role",
+                  "subject": "Product Marketing Manager Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the Product Marketing Manager role at [Company]. With [X] years of experience in go-to-market strategies, I’d greatly appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-referral-5",
+                  "title": "Referral Request: Director of Product Position",
+                  "subject": "Director of Product Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Director of Product position at [Company]. I’ve led product teams to successful launches and would appreciate your referral.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-networking-3",
+                  "title": "Networking Request: Product Metrics and KPIs",
+                  "subject": "Discussing Product Metrics and KPIs",
+                  "body": "Hi [Name],\n\nI’d love to learn how your team at [Company] measures product success. Are you open to sharing your insights on key metrics and KPIs?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-networking-4",
+                  "title": "Networking Outreach: Agile Product Management",
+                  "subject": "Exploring Agile Practices in Product Management",
+                  "body": "Hi [Name],\n\nI’m researching Agile practices in product management and noticed your expertise at [Company]. Would you be open to discussing your experiences?\n\nLooking forward to connecting!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "product-networking-5",
+                  "title": "Networking Request: Product Roadmapping Techniques",
+                  "subject": "Discussing Product Roadmapping Strategies",
+                  "body": "Hi [Name],\n\nI’m interested in product roadmapping techniques and would love to hear how your team at [Company] approaches this process. Could we connect?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-referral-1",
+                  "title": "Referral Request for Data Engineer Role at [Company]",
+                  "subject": "Data Engineer Position Referral",
+                  "body": "Hi [Name],\n\nI’m applying for the Data Engineer role at [Company]. With [X] years of experience in ETL processes and data warehousing, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-referral-2",
+                  "title": "Quick Favor: Big Data Engineer Referral",
+                  "subject": "Big Data Engineer Role Referral Needed",
+                  "body": "Hi [Name],\n\nI’m interested in the Big Data Engineer position at [Company]. My background includes Hadoop, Spark, and data pipeline development. Could you refer me?\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-referral-3",
+                  "title": "Help Needed: Data Pipeline Engineer Referral Request",
+                  "subject": "Data Pipeline Engineer Position Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Data Pipeline Engineer role at [Company]. My skills include:\n\n- SQL & NoSQL databases\n- Data modeling\n- Performance tuning\n\nI’d appreciate your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-networking-1",
+                  "title": "Networking Outreach: Data Engineering Trends",
+                  "subject": "Discussing Current Trends in Data Engineering",
+                  "body": "Hi [Name],\n\nI’m a Data Engineer interested in the latest trends in the field. I’d love to connect and hear your insights on emerging technologies at [Company].\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-networking-2",
+                  "title": "Networking Request: Data Quality Best Practices",
+                  "subject": "Connecting on Data Quality Management",
+                  "body": "Hi [Name],\n\nI noticed your expertise in data quality at [Company]. Could we discuss your strategies for ensuring data integrity and accuracy?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-referral-4",
+                  "title": "Referral Request: ETL Developer Role",
+                  "subject": "ETL Developer Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the ETL Developer role at [Company]. With [X] years of experience in data integration and transformation, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-referral-5",
+                  "title": "Referral Request: Senior Data Engineer Position",
+                  "subject": "Senior Data Engineer Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Senior Data Engineer position at [Company]. I’ve led data engineering projects that improved data accessibility. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-networking-3",
+                  "title": "Networking Request: Data Engineering Tools",
+                  "subject": "Discussing Data Engineering Tools and Frameworks",
+                  "body": "Hi [Name],\n\nI’m exploring various data engineering tools and noticed your expertise at [Company]. Could we discuss your favorite frameworks and libraries?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-networking-4",
+                  "title": "Networking Outreach: Data Governance Discussion",
+                  "subject": "Connecting on Data Governance Practices",
+                  "body": "Hi [Name],\n\nI’m passionate about data governance and would love to hear your thoughts on best practices at [Company]. Could we connect?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "dataengineer-networking-5",
+                  "title": "Networking Request: Data Engineering Challenges",
+                  "subject": "Discussing Challenges in Data Engineering",
+                  "body": "Hi [Name],\n\nI’d love to learn how your team at [Company] addresses common challenges in data engineering. Are you open to sharing your experiences?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-referral-1",
+                  "title": "Referral Request for Cybersecurity Specialist Role at [Company]",
+                  "subject": "Cybersecurity Specialist Position Referral",
+                  "body": "Hi [Name],\n\nI’m applying for the Cybersecurity Specialist role at [Company]. With [X] years of experience in threat analysis and incident response, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-referral-2",
+                  "title": "Quick Favor: Information Security Analyst Referral",
+                  "subject": "Information Security Analyst Role Referral Needed",
+                  "body": "Hi [Name],\n\nI’m interested in the Information Security Analyst position at [Company]. My background includes risk assessment and compliance. Could you refer me?\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-referral-3",
+                  "title": "Help Needed: Security Engineer Referral Request",
+                  "subject": "Security Engineer Position Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Security Engineer role at [Company]. My skills include:\n\n- Network security\n- Vulnerability assessment\n- Incident management\n\nI’d appreciate your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-networking-1",
+                  "title": "Networking Outreach: Cybersecurity Trends",
+                  "subject": "Discussing Current Trends in Cybersecurity",
+                  "body": "Hi [Name],\n\nI’m a Cybersecurity Specialist interested in the latest trends in the field. I’d love to connect and hear your insights on emerging threats at [Company].\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-networking-2",
+                  "title": "Networking Request: Security Compliance Best Practices",
+                  "subject": "Connecting on Security Compliance Strategies",
+                  "body": "Hi [Name],\n\nI noticed your expertise in security compliance at [Company]. Could we discuss your strategies for maintaining compliance with regulations?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-referral-4",
+                  "title": "Referral Request: Penetration Tester Role",
+                  "subject": "Penetration Tester Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the Penetration Tester role at [Company]. With [X] years of experience in ethical hacking and vulnerability assessments, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-referral-5",
+                  "title": "Referral Request: Senior Cybersecurity Analyst Position",
+                  "subject": "Senior Cybersecurity Analyst Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the Senior Cybersecurity Analyst position at [Company]. I’ve led security initiatives that improved organizational resilience. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-networking-3",
+                  "title": "Networking Request: Cyber Threat Intelligence",
+                  "subject": "Discussing Cyber Threat Intelligence Strategies",
+                  "body": "Hi [Name],\n\nI’d love to learn how your team at [Company] approaches cyber threat intelligence. Are you open to sharing your experiences?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-networking-4",
+                  "title": "Networking Outreach: Incident Response Planning",
+                  "subject": "Exploring Incident Response Strategies",
+                  "body": "Hi [Name],\n\nI’m researching incident response strategies and noticed your expertise at [Company]. Would you be open to discussing your approach?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "cybersecurity-networking-5",
+                  "title": "Networking Request: Cybersecurity Frameworks",
+                  "subject": "Discussing Cybersecurity Frameworks and Standards",
+                  "body": "Hi [Name],\n\nI’m interested in cybersecurity frameworks and would love to hear how your team at [Company] implements them. Could we connect?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-referral-1",
+                  "title": "Referral Request for QA Engineer Role at [Company]",
+                  "subject": "QA Engineer Position Referral",
+                  "body": "Hi [Name],\n\nI’m applying for the QA Engineer role at [Company]. With [X] years of experience in automated testing and quality assurance, I’d appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-referral-2",
+                  "title": "Quick Favor: Software Tester Referral",
+                  "subject": "Software Tester Role Referral Needed",
+                  "body": "Hi [Name],\n\nI’m interested in the Software Tester position at [Company]. My background includes manual and automated testing. Could you refer me?\n\nThanks,\n[Your Name]"
+              },
+              {
+                  "id": "qa-referral-3",
+                  "title": "Help Needed: Test Automation Engineer Referral Request",
+                  "subject": "Test Automation Engineer Position Referral",
+                  "body": "Hi [Name],\n\nI’m reaching out to ask for a referral for the Test Automation Engineer role at [Company]. My skills include:\n\n- Selenium & Cypress\n- Test strategy development\n- Continuous integration\n\nI’d appreciate your help!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-networking-1",
+                  "title": "Networking Outreach: QA Best Practices",
+                  "subject": "Discussing QA Best Practices and Tools",
+                  "body": "Hi [Name],\n\nI’m a QA Engineer interested in best practices. I’d love to connect and hear your insights on tools and methodologies at [Company].\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-networking-2",
+                  "title": "Networking Request: Test Case Design Techniques",
+                  "subject": "Connecting on Test Case Design Strategies",
+                  "body": "Hi [Name],\n\nI noticed your expertise in test case design at [Company]. Could we discuss your strategies for effective test case creation?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-referral-4",
+                  "title": "Referral Request: Senior QA Engineer Role",
+                  "subject": "Senior QA Engineer Position at [Company]",
+                  "body": "Hi [Name],\n\nI’m applying for the Senior QA Engineer role at [Company]. With [X] years of experience in leading QA teams, I’d greatly appreciate your referral.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-referral-5",
+                  "title": "Referral Request: QA Team Lead Position",
+                  "subject": "QA Team Lead Role Referral",
+                  "body": "Hi [Name],\n\nI’m interested in the QA Team Lead position at [Company]. I’ve led QA initiatives that improved product quality significantly. Could you refer me?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-networking-3",
+                  "title": "Networking Request: Performance Testing Strategies",
+                  "subject": "Discussing Performance Testing Approaches",
+                  "body": "Hi [Name],\n\nI’d love to learn how your team at [Company] approaches performance testing. Are you open to sharing your experiences?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-networking-4",
+                  "title": "Networking Outreach: Continuous Testing Practices",
+                  "subject": "Exploring Continuous Testing in QA",
+                  "body": "Hi [Name],\n\nI’m researching continuous testing practices and noticed your expertise at [Company]. Would you be open to discussing your approach?\n\nLooking forward to connecting!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "qa-networking-5",
+                  "title": "Networking Request: QA Metrics and Reporting",
+                  "subject": "Discussing QA Metrics and Reporting Strategies",
+                  "body": "Hi [Name],\n\nI’m interested in QA metrics and would love to hear how your team at [Company] measures quality. Could we connect?\n\nBest,\n[Your Name]"
+              }
+          ]
+      },
+      {
+          "id": "networking-outreach",
+          "title": "Networking Outreach",
+          "templates": [
+              {
+                  "id": "networking-outreach-1",
+                  "title": "Networking Request: Industry Insights",
+                  "subject": "Seeking Insights on [Industry/Field]",
+                  "body": "Hi [Name],\n\nI hope you’re doing well! I’m reaching out to connect with professionals in [Industry/Field]. I’d love to hear your insights and experiences. Are you open to a chat?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-2",
+                  "title": "Networking Outreach: Career Advice",
+                  "subject": "Looking for Career Guidance",
+                  "body": "Hi [Name],\n\nI admire your career path in [Industry/Field]. I’m seeking advice on how to navigate my own career. Would you be willing to share your experiences?\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-3",
+                  "title": "Networking Request: Collaboration Opportunities",
+                  "subject": "Exploring Collaboration in [Project/Field]",
+                  "body": "Hi [Name],\n\nI’m currently working on [Project/Field] and would love to explore potential collaboration opportunities with you. Are you available for a discussion?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-4",
+                  "title": "Networking Outreach: Event Invitation",
+                  "subject": "Invitation to [Event/Conference]",
+                  "body": "Hi [Name],\n\nI’m attending [Event/Conference] on [Date] and thought it would be great to connect there. Would you be interested in meeting up?\n\nLooking forward to it!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-5",
+                  "title": "Networking Request: Knowledge Sharing",
+                  "subject": "Sharing Knowledge in [Field/Topic]",
+                  "body": "Hi [Name],\n\nI’m passionate about [Field/Topic] and would love to share knowledge and insights with you. Are you open to a conversation?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-6",
+                  "title": "Networking Outreach: Feedback Request",
+                  "subject": "Request for Feedback on [Project/Idea]",
+                  "body": "Hi [Name],\n\nI’m working on [Project/Idea] and would greatly appreciate your feedback. Would you be willing to share your thoughts?\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-7",
+                  "title": "Networking Request: Mentorship Opportunity",
+                  "subject": "Seeking Mentorship in [Field]",
+                  "body": "Hi [Name],\n\nI’m looking for a mentor in [Field] and would be honored if you would consider guiding me. Would you be open to discussing this?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-8",
+                  "title": "Networking Outreach: Sharing Resources",
+                  "subject": "Sharing Resources on [Topic]",
+                  "body": "Hi [Name],\n\nI came across some resources on [Topic] that I think you might find valuable. Would you like me to share them with you?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-9",
+                  "title": "Networking Request: Exploring New Trends",
+                  "subject": "Discussing New Trends in [Industry/Field]",
+                  "body": "Hi [Name],\n\nI’m interested in discussing new trends in [Industry/Field]. I’d love to hear your thoughts and insights. Are you available for a chat?\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "networking-outreach-10",
+                  "title": "Networking Outreach: Follow-Up on Previous Conversation",
+                  "subject": "Following Up on Our Last Discussion",
+                  "body": "Hi [Name],\n\nI wanted to follow up on our last conversation about [Topic]. I’d love to continue our discussion and hear your latest thoughts.\n\nBest,\n[Your Name]"
+              }
+          ]
+      },
+      {
+          "id": "follow-ups",
+          "title": "Follow-Ups",
+          "templates": [
+              {
+                  "id": "follow-up-1",
+                  "title": "Follow-Up: After Job Application",
+                  "subject": "Following Up on My Application for [Position]",
+                  "body": "Hi [Name],\n\nI hope this is well! I wanted to follow up on my application for the [Position] at [Company]. I’m very excited about the opportunity and would love to know if there are any updates regarding my application status.\n\nThank you for your time!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-2",
+                  "title": "Follow-Up: After Interview",
+                  "subject": "Thank You for the Opportunity",
+                  "body": "Hi [Name],\n\nThank you for the opportunity to interview for the [Position] at [Company]. I enjoyed our conversation and learning more about the team. I’m very enthusiastic about the possibility of joining your team and contributing to [specific project or goal].\n\nLooking forward to hearing from you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-3",
+                  "title": "Follow-Up: After Networking Event",
+                  "subject": "Great Connecting at [Event]",
+                  "body": "Hi [Name],\n\nIt was great to meet you at [Event]. I enjoyed our conversation about [specific topic]. I’d love to stay in touch and explore potential collaboration opportunities.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-4",
+                  "title": "Follow-Up: After Referral Request",
+                  "subject": "Thank You for Considering My Referral Request",
+                  "body": "Hi [Name],\n\nI wanted to thank you for considering my referral request for the [Position] at [Company]. I appreciate your support and any help you can provide.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-5",
+                  "title": "Follow-Up: Checking In",
+                  "subject": "Just Checking In",
+                  "body": "Hi [Name],\n\nI hope you’re doing well! I wanted to check in and see if there are any updates regarding [specific topic or application]. I appreciate your time and assistance.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-6",
+                  "title": "Follow-Up: After Sending a Proposal",
+                  "subject": "Following Up on My Proposal for [Project]",
+                  "body": "Hi [Name],\n\nI hope this message finds you well! I wanted to follow up on the proposal I sent regarding [Project]. I’m eager to hear your thoughts and discuss any questions you might have.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-7",
+                  "title": "Follow-Up: After a Meeting",
+                  "subject": "Thank You for the Meeting",
+                  "body": "Hi [Name],\n\nThank you for taking the time to meet with me. I enjoyed our discussion about [specific topic] and look forward to our next steps. Please let me know if you need any further information from my side.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-8",
+                  "title": "Follow-Up: After a Conference",
+                  "subject": "Great to Connect at [Conference]",
+                  "body": "Hi [Name],\n\nIt was a pleasure meeting you at [Conference]. I enjoyed our conversation about [specific topic]. I’d love to keep in touch and explore ways we can collaborate.\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-9",
+                  "title": "Follow-Up: After a Job Offer",
+                  "subject": "Thank You for the Job Offer",
+                  "body": "Hi [Name],\n\nI wanted to express my gratitude for the job offer for the [Position] at [Company]. I’m excited about the opportunity and look forward to discussing the next steps.\n\nThank you!\n\nBest,\n[Your Name]"
+              },
+              {
+                  "id": "follow-up-10",
+                  "title": "Follow-Up: After a Feedback Request",
+                  "subject": "Thank You for Your Feedback",
+                  "body": "Hi [Name],\n\nThank you for providing feedback on [specific topic]. I appreciate your insights and look forward to implementing your suggestions. Let’s keep the conversation going!\n\nBest,\n[Your Name]"
+              }
+          ]
+      }
   ]
 }
