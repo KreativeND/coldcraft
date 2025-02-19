@@ -1,0 +1,136 @@
+{
+    "categories": [
+        {
+            "id": "referral-request",
+            "title": "Referral Request",
+            "templates": [
+                {
+                    "id": "referral-request-basic",
+                    "title": "Basic Referral Request",
+                    "subject": "Seeking Your Guidance for Opportunities at [Company Name]",
+                    "body": "Hi [Recipient's Name],\n\nI hope this message finds you well. I am reaching out to see if you might know of any job openings at [Company Name]. I am very interested in [specific role or department] and believe my skills in [your skills] would be a great fit.\n\nThank you for your help!\n\nBest,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                },
+                {
+                    "id": "referral-request-with-resume",
+                    "title": "Referral Request with Resume",
+                    "subject": "Request for Referral to [Position] at [Company Name]",
+                    "body": "Hi [Recipient's Name],\n\nI hope you’re doing well! I am reaching out to ask if you could refer me for the [Position] at [Company Name]. I have attached my resume for your reference. With my background in [your experience/skills], I believe I could contribute positively to the team.\n\nThank you for considering my request!\n\nBest regards,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                },
+                {
+                    "id": "detailed-referral-request",
+                    "title": "Detailed Referral Request",
+                    "subject": "Seeking Your Support for a Referral at [Company Name]",
+                    "body": "Hi [Recipient's Name],\n\nI hope this email finds you well. My name is [Your Name], and I am currently seeking new opportunities in [specific field/role]. I have [X years] of experience in [your experience/skills], and I am particularly interested in [Company Name] because [reason for interest].\n\nIf you have any insights or could refer me for any openings, I would greatly appreciate it. I have attached my resume for your review.\n\nThank you for your time and support!\n\nBest,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                }
+            ]
+        },
+        {
+            "id": "job-inquiry",
+            "title": "Job Inquiry",
+            "templates": [
+                {
+                    "id": "job-inquiry-basic",
+                    "title": "Basic Job Inquiry",
+                    "subject": "Inquiry About Job Openings in [Department] at [Company Name]",
+                    "body": "Hi [Recipient's Name],\n\nI hope you’re having a great day! I am writing to inquire about any potential job openings in [Department] at [Company Name]. I am very interested in joining your team and believe my skills in [your skills] would be a great match.\n\nThank you for your time!\n\nBest,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                }
+            ]
+        },
+        {
+            "id": "informational-interview",
+            "title": "Informational Interview",
+            "templates": [
+                {
+                    "id": "informational-interview-request",
+                    "title": "Request for Informational Interview",
+                    "subject": "Seeking Your Insights on [Industry/Role]",
+                    "body": "Hi [Recipient's Name],\n\nI hope this message finds you well. My name is [Your Name], and I am currently exploring opportunities in [specific field/role]. I would love to learn more about your experience at [Company Name] and any advice you might have for someone looking to enter the field.\n\nWould you be open to a brief chat?\n\nThank you!\n\nBest,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                }
+            ]
+        },
+        {
+            "id": "follow-up",
+            "title": "Follow-Up",
+            "templates": [
+                {
+                    "id": "follow-up-application",
+                    "title": "Follow-Up on Job Application",
+                    "subject": "Following Up on My Application for [Position]",
+                    "body": "Hi [Recipient's Name],\n\nI hope you’re doing well! I wanted to follow up on my application for the [Position] at [Company Name] submitted on [date]. I am very excited about the opportunity to join your team and contribute my skills in [your skills].\n\nThank you for your consideration!\n\nBest ,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                }
+            ]
+        },
+        {
+            "id": "thank-you",
+            "title": "Thank You",
+            "templates": [
+                {
+                    "id": "thank-you-interview",
+                    "title": "Thank You After Interview",
+                    "subject": "Thank You for the Opportunity",
+                    "body": "Hi [Recipient's Name],\n\nThank you so much for the opportunity to interview for the [Position] at [Company Name]. I enjoyed our conversation and learning more about the team and the exciting projects you are working on.\n\nI appreciate your time and consideration, and I look forward to the possibility of working together.\n\nBest regards,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                }
+            ]
+        },
+        {
+            "id": "networking",
+            "title": "Networking",
+            "templates": [
+                {
+                    "id": "networking-introduction",
+                    "title": "Networking Introduction",
+                    "subject": "Connecting with You",
+                    "body": "Hi [Recipient's Name],\n\nI hope this message finds you well. My name is [Your Name], and I am currently [your current position or situation]. I came across your profile and was impressed by your work in [specific area]. I would love to connect and learn more about your experiences.\n\nThank you for considering my request!\n\nBest,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                }
+            ]
+        },
+        {
+            "id": "salary-negotiation",
+            "title": "Salary Negotiation",
+            "templates": [
+                {
+                    "id": "salary-negotiation-request",
+                    "title": "Request for Salary Discussion",
+                    "subject": "Discussion on Salary for [Position]",
+                    "body": "Hi [Recipient's Name],\n\nI hope you’re doing well! I wanted to discuss the salary for the [Position] I was offered. After researching industry standards and considering my experience, I believe a salary of [your desired salary] would be more appropriate.\n\nI appreciate your understanding and look forward to your response.\n\nBest,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                }
+            ]
+        },
+        {
+            "id": "resignation",
+            "title": "Resignation",
+            "templates": [
+                {
+                    "id": "resignation-letter",
+                    "title": "Resignation Letter",
+                    "subject": "Resignation from [Your Position]",
+                    "body": "Dear [Manager's Name],\n\nI am writing to formally resign from my position as [Your Position] at [Company Name], effective [last working day]. I appreciate the opportunities I have had during my time here and the support from you and the team.\n\nThank you for everything, and I hope to stay in touch.\n\nSincerely,\n[Your Name]\n[Your Mobile Number]\n[Your Email]"
+                }
+            ]
+        },
+        {
+            "id": "career-change",
+            "title": "Career Change",
+            "templates": [
+                {
+                    "id": "career-change-notification",
+                    "title": "Notification of Career Change",
+                    "subject": "Exciting Career Change Announcement",
+                    "body": "Hi [Recipient's Name],\n\nI hope you’re doing well! I wanted to share some exciting news with you. I have decided to pursue a career change into [new field/industry]. I am eager to explore new opportunities and challenges ahead.\n\nThank you for your support!\n\nBest,\n[Your Name]\n[Your Mobile Number]\n[Your Email]\n[Your LinkedIn Profile]"
+                }
+            ]
+        },
+        {
+            "id": "job-offer",
+            "title": "Job Offer",
+            "templates": [
+                {
+                    "id": "job-offer-acceptance",
+                    "title": "Job Offer Acceptance",
+                    "subject": "Acceptance of Job Offer for [Position]",
+                    "body": "Dear [Hiring Manager's Name],\n\nI am thrilled to accept the offer for the [Position] at [Company Name]. Thank you for this incredible opportunity. I look forward to joining the team on [start date].\n\nBest regards,\n[Your Name]\n[Your Mobile Number]\n[Your Email]"
+                }
+            ]
+        }
+    ]
+}
